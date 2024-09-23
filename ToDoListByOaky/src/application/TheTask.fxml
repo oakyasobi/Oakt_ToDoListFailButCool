@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="580.0" style="-fx-background-color: #FFF9E3;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TheTaskController">
+   <children>
+      <AnchorPane layoutX="5.0" layoutY="5.0" prefHeight="50.0" prefWidth="470.0" style="-fx-background-color: #F0F8FF; -fx-background-radius: 9; -fx-border-color: #A4DBEA; -fx-border-radius: 8;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <RadioButton fx:id="TheRadioButton" layoutX="14.0" layoutY="8.0" mnemonicParsing="false" onAction="#ClickTheRadioButton" prefHeight="45.0" prefWidth="420.0" text="To Sleep Early" textFill="#4a2626">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></RadioButton>
+            <Label fx:id="TheDate" layoutX="457.0" layoutY="11.0" prefHeight="39.0" prefWidth="99.0" text="0000/00/00" textFill="#797171">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
